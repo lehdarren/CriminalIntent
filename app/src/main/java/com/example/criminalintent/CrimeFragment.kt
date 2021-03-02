@@ -53,7 +53,7 @@ class CrimeFragment : Fragment() {
             }
 
             override fun afterTextChanged(sequence: Editable?) {
-                //Intentionally left blank
+                //Intentionally left blan
             }
         }
 
