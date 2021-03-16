@@ -15,7 +15,6 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="sans-serif"
         android:text="Crime Title"
-        android:textAppearance="Material"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/crime_solved"
