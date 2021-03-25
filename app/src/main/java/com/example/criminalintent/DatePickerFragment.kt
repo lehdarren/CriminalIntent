@@ -4,7 +4,9 @@ import android.app.DatePickerDialog
 import android.app.Dialog
 import android.os.Bundle
 import android.widget.DatePicker
+import android.widget.TimePicker
 import androidx.fragment.app.DialogFragment
+import java.sql.Time
 import java.util.*
 
 private const val ARG_DATE = "date"
@@ -23,7 +25,7 @@ class DatePickerFragment : DialogFragment() {
             targetFragment?.let {fragment ->
                 (fragment as Callbacks).onDateSelected(resultDate)
             }
-    }
+        }
 
         val date = arguments?.getSerializable(ARG_DATE) as Date
         val calendar = Calendar.getInstance()
