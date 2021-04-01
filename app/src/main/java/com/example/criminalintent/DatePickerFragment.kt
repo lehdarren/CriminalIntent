@@ -27,7 +27,7 @@ class DatePickerFragment : DialogFragment(){
         val dateListener = DatePickerDialog.OnDateSetListener{
                 _:DatePicker,year:Int, month:Int, day:Int ->
 
-            chosenYear = year
+            chosenYear = year - 1900
             chosenMonth = month
             chosenDay = day
         }
